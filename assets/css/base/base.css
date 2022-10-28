@@ -1,8 +1,27 @@
 @import url(/assets/css/layout/layout.css);
+@import url(/assets/css/modulo/modulo.css);
+
+:root {
+  --color-principal: #ffffff;
+  --background-cinza: rgba(103, 103, 103, 0.6);
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button i {
+  margin-right: 10px;
 }

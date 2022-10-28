@@ -1,0 +1,35 @@
+/* Banner Principal */
+
+.main {
+  background-image: url(/assets/imgs/banner\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.main__descricao {
+  width: 33%;
+  color: var(--color-principal);
+  align-self: center;
+  margin-left: 40px;
+}
+
+.main__img img {
+  width: 100%;
+}
+
+.main__descricao p {
+  padding: 0 15px 0px 0;
+  text-align: justify;
+  font-weight: 600;
+}
+
+.main__btns {
+  display: flex;
+  gap: 12px;
+}
+
+.btn__info {
+  color: var(--color-principal);
+  background-color: var(--background-cinza);
+}
