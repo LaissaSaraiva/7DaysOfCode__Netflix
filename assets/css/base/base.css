@@ -3,6 +3,7 @@
 
 :root {
   --color-principal: #ffffff;
+  --color-secundaria: #CCCCCC;
   --background-cinza: rgba(103, 103, 103, 0.6);
 }
 
@@ -24,4 +25,16 @@ button {
 
 button i {
   margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-secundaria);
 }

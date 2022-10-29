@@ -14,24 +14,56 @@
     />
     <link rel="stylesheet" href="/assets/css/base/base.css" />
   </head>
-  <body>
+  <body class="bcg__img">
+    <header>
+      <nav class="navbar">
+        <div class="nav__left flex__row">
+          <a href="#">
+            <img class="logo" src="./assets/imgs/logo.png" alt="Logo Netflix"
+          /></a>
+          <ul class="nav__lista flex__row">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Bombando</a></li>
+            <li><a href="#">Minha lista</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__icons flex__row">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bell"></i>
+          <div class="nav__img">
+            <img class="user" src="./assets/imgs/user_1.png" alt="" />
+          </div>
+          <i class="fa-solid fa-sort-down"></i>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="main section">
-        <div class="main__descricao flex">
+        <div class="main__descricao flex__column">
           <div class="main__img">
             <img src="./assets/imgs/poster.png" alt="" srcset="" />
           </div>
           <p>
-           Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústia farmacêutica.
+            Em uma penitenciária de última geração, um detento participa de um
+            experimento com drogas que controlam as emoções para um gênio da
+            indústia farmacêutica.
           </p>
           <div class="main__btns">
             <button><i class="fa-solid fa-play"></i>Assistir</button>
-            <button class="btn__info"><i class="fa-sharp fa-solid fa-circle-info"></i>Mais informações</button>
+            <button class="btn__info">
+              <i class="fa-sharp fa-solid fa-circle-info"></i>Mais informações
+            </button>
           </div>
         </div>
       </section>
     </main>
-    <script src="https://kit.fontawesome.com/a7e2bd8b8b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a7e2bd8b8b.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

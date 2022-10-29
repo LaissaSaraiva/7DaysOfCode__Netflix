@@ -1,10 +1,13 @@
 /* Banner Principal */
 
 .main {
+  display: flex;
+}
+
+.bcg__img {
   background-image: url(/assets/imgs/banner\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
 }
 
 .main__descricao {
@@ -32,4 +35,41 @@
 .btn__info {
   color: var(--color-principal);
   background-color: var(--background-cinza);
+}
+
+/* Menu Navegação */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav__lista {
+  font-size: 14px;
+  color: var(--color-secundaria);
+}
+
+.nav__icons i {
+  font-size: 20px;
+  color: var(--color-principal);
+}
+
+.nav__img {
+  width: 35px;
+}
+
+.nav__img .user {
+  width: 100%;
+  border-radius: 4px;
 }
