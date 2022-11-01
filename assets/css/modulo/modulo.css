@@ -7,7 +7,7 @@
 .bcg__img {
   background-image: url(/assets/imgs/banner\ 1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .main__descricao {
@@ -84,6 +84,9 @@
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
     #000000
   );
 }
@@ -95,10 +98,12 @@
 .trilhos {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  align-items: center;
+  gap: 10px;
   margin-top: 10px;
 }
 
 .trilhos li img {
   width: 100%;
+  transition: all .5s;
 }

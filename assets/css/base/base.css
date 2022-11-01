@@ -1,5 +1,6 @@
 @import url(/assets/css/layout/layout.css);
 @import url(/assets/css/modulo/modulo.css);
+@import url(/assets/css/estado/estado.css);
 
 :root {
   --color-principal: #ffffff;
