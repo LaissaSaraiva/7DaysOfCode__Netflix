@@ -1,10 +1,22 @@
-
 /* Hover trilhos de fimes e séries */
 
 .trilhos li img:hover {
   cursor: pointer;
-  transform:scale(1.1);
+  transform: scale(1.1);
   opacity: 0.6;
   border: 2px solid var(--color-secundaria);
   padding: 10px 8px;
+}
+
+/* Hover - Rodapé */
+
+.rodape__lista ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--background-cinza);
+}
+
+.rodape .btn:hover {
+  cursor: pointer;
+  background-color: var(--background-cinza);
 }
