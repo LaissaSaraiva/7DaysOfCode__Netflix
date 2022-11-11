@@ -6,6 +6,7 @@
   --color-principal: #ffffff;
   --color-secundaria: #CCCCCC;
   --background-cinza: rgba(103, 103, 103, 0.6);
+  --color-black: #000;
 }
 
 * {

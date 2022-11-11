@@ -60,7 +60,7 @@
   color: var(--color-secundaria);
 }
 
-.nav__icons i {
+.icons i {
   font-size: 20px;
   color: var(--color-principal);
 }
@@ -73,7 +73,6 @@
   width: 100%;
   border-radius: 4px;
 }
-
 
 /* Seção de Categorias de Filmes e Séries */
 
@@ -105,5 +104,28 @@
 
 .trilhos li img {
   width: 100%;
-  transition: all .5s;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+  padding: 10px 8px;
 }
+
+/*  Rodapé */
+.rodape {
+  background-color: var(--color-black);
+  padding: 20px 50px;
+  color: var(--color-secundaria); 
+  gap: 30px;
+  font-size: 14px;
+}
+
+.rodape__lista{
+justify-content: space-between;
+}
+
+.btn {
+  color: var(--color-secundaria);
+  display: inline;
+  border: 2px solid var(--background-cinza);
+  padding: 10px;
+}
+
