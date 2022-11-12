@@ -12,7 +12,7 @@
 }
 
 .main__descricao {
-  width: 33%;
+  max-width: 400px;
   color: var(--color-principal);
   align-self: center;
   margin-left: 40px;
@@ -31,6 +31,7 @@
 .main__btns {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .btn__info {
@@ -131,4 +132,48 @@ justify-content: space-between;
 
 .footer__copy, .creditos{
   text-align: center;
+}
+
+/* Responsividade */
+@media (max-width:768px) {
+
+  .navbar {
+    display: none;
+  }
+
+  .bcg__img {
+    background-size: auto;
+    background-position: 60% 0;
+  }
+
+  .main__descricao {
+    align-self: flex-end;
+  }
+
+  .main__descricao p {
+    display: none;
+  }
+
+  .main__img img {
+    width: 60%;
+  }
+
+  .categorias .trilhos li:nth-child(n+6) {
+    display: none;
+  }
+
+  .rodape {
+    padding: 20px 40px;
+    align-items: center;
+  }
+}
+
+@media (max-width:575px) {
+  .categorias .trilhos li:nth-child(n+3) {
+    display: none;
+  }
+  
+  .rodape__lista {
+    display: none;
+  }
 }
