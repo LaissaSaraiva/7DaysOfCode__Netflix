@@ -45,3 +45,11 @@
   cursor: pointer;
   background-color: var(--background-cinza);
 }
+
+.creditos a {
+  font-weight: bold;
+}
+
+.creditos a:hover {
+  color: var(--background-cinza);
+}
