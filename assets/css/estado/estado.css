@@ -1,6 +1,30 @@
+/* Botões do Header */
+.btns__mobile{
+  display: none;
+}
+
+#btn__aberto:hover, #btn__fechado:hover{
+  background-color: var(--color-secundaria);
+}
+
+#btn__aberto, #btn__fechado {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: var(--color-principal);
+  padding: 8px;
+  border-radius: 6px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+
+#btn__fechado {
+  display: none;
+}
+
 /* Hover nav-list */
 
-.nav__lista a:hover{
+.nav__lista li:hover{
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 2px;
 }
@@ -51,5 +75,72 @@
 }
 
 .creditos a:hover {
-  color: var(--background-cinza);
+  color: var(--color-principal);
+}
+
+@media (max-width:768px) {
+
+  .navbar {
+  padding: 10px 40px;
+    background: var(--color-black);
+  }
+
+  .nav__lista li:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+  }
+
+  .btns__mobile{
+    display: block;
+  }
+
+  #btn__aberto {
+    display: block;
+  }
+  
+  .nav__lista {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 60px;
+    left: 0;
+    z-index: 1000;
+    visibility: hidden;
+    transition: .5s;
+    overflow-y: hidden;
+    background: var(--color-black);
+  }
+
+  body.ativo .nav__lista {
+    height: calc(90vh - 60px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  body.ativo #btn__aberto {
+    display:none;
+  }
+
+  body.ativo #btn__fechado {
+    display:block; 
+  }
+
+  body.ativo .categorias {
+    display: none;
+  }
+
+  .nav__lista li{
+    padding: 1rem 0;
+    margin: 0 auto;
+     width: 90%;
+     border-bottom: 2px solid var(--color-secundaria);
+  }
+}
+
+@media (max-width:426px) {
+  .icons {
+    display: none;
+  }
+
 }
