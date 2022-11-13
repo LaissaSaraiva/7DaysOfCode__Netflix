@@ -39,6 +39,6 @@ a {
   padding: 7px;
 }
 
-a:visited {
+a:visited, a:active {
   color: var(--color-secundaria);
 }
