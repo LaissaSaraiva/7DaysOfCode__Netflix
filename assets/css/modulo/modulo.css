@@ -62,6 +62,10 @@
   color: var(--color-secundaria);
 }
 
+.nav__lista li {
+  padding: 10px 0px;
+}
+
 .icons i {
   font-size: 20px;
   color: var(--color-principal);
@@ -151,7 +155,7 @@ justify-content: space-between;
   }
 }
 
-@media (max-width:769px) {
+@media (max-width:770px) {
 
   .main__descricao p {
     display: none;

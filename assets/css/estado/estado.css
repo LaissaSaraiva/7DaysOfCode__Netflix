@@ -78,7 +78,7 @@
   color: var(--color-principal);
 }
 
-@media (max-width:768px) {
+@media (max-width:775px) {
 
   .navbar {
   padding: 10px 40px;
@@ -113,7 +113,7 @@
   }
 
   body.ativo .nav__lista {
-    height: calc(90vh - 60px);
+    height: calc(90vh - 55px);
     visibility: visible;
     overflow-y: auto;
   }
