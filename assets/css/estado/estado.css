@@ -113,7 +113,7 @@
   }
 
   body.ativo .nav__lista {
-    height: calc(90vh - 55px);
+    height: calc(130vh - 60px);
     visibility: visible;
     overflow-y: auto;
   }
